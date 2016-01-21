@@ -60,18 +60,6 @@ var scripts = {
     main: {
         src: [
             'bower_components/jquery/dist/jquery.min.js',
-            'bower_components/enquire/dist/enquire.min.js',
-            'bower_components/scrollmagic/scrollmagic/minified/ScrollMagic.min.js',
-            // 'bower_components/gsap/src/minified/TweenLite.min.js',
-            'bower_components/gsap/src/minified/TweenMax.min.js',
-            'bower_components/gsap/src/minified/TimelineLite.min.js',
-            // 'bower_components/gsap/src/minified/TimelineMax.min.js',
-            // 'bower_components/gsap/src/minified/plugins/CSSPlugin.min.js',
-            // 'bower_components/gsap/src/minified/easing/EasePack.min.js',
-            'bower_components/scrollmagic/scrollmagic/minified/plugins/animation.gsap.min.js',
-            'bower_components/headroom.js/dist/headroom.min.js',
-            'bower_components/picturefill/dist/picturefill.min.js',
-            'bower_components/slick-carousel/slick/slick.js',
             paths.js + 'main.js'
         ],
         template: false
