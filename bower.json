@@ -1,0 +1,29 @@
+{
+  "name": "hiaooc",
+  "description": "Gulpfile boilerplate for kirby CMS dev workflow",
+  "main": "",
+  "authors": [
+    "Florenz Heldermann"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "kirby",
+    "CMS",
+    "gulp",
+    "gulpfile"
+  ],
+  "homepage": "https://github.com/hiaooc/hiaooc-website",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "normalize-css": "~3.0.3",
+    "jquery": "~2.2.0"
+  }
+}

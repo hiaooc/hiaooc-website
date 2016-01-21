@@ -14,9 +14,7 @@
 </head>
 <body>
 
-  <header class="header cf" role="banner">
-    <a class="logo" href="<?php echo url() ?>">
-      <img src="<?php echo url('assets/images/logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
-    </a>
-    <?php snippet('menu') ?>
-  </header>
+<header class="header" role="banner">
+    <img class="header__logo" src="http://placehold.it/50x50" alt="logo">
+    <h1>HI&OOC</h1>
+</header>
