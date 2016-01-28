@@ -1,0 +1,19 @@
+html {
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+}
+
+body {
+    background: $bgColor;
+    font-size: 62.5%;
+}
+
+main, header, footer {
+    max-width: $maxWidth;
+    width: 100%; 
+    padding: 0 2rem;
+    margin: 0 auto;
+}

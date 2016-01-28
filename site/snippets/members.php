@@ -1,10 +1,8 @@
 <section class="members"> 
     <h2> 
-        <?php echo kirbytext( $data->title() ); ?>
+        <?php echo $data->title() ?>
     </h2>
-    <p>
-        <?php echo kirbytext( $data->text() ); ?>
-    </p>
+    <?php echo kirbytext( $data->text() ); ?>
 
 
     <?php foreach( $data->children()->visible() as $member): ?>

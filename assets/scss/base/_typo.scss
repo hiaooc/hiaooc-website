@@ -1,0 +1,40 @@
+h1, .alpha,
+h2, .beta,
+h3, .gamma,
+h4, .delta, 
+h5, .epsilon,
+h6, .zeta {
+}
+
+h1, .alpha {
+    color: $prim3;
+    font-size: 3.2rem;
+
+    span {
+        color: $prim2;
+    }
+}
+
+h2, .beta {
+    color: $prim2;
+    font-size: 2.2rem;
+}
+
+h3, .gamma,
+h4, .delta, 
+h5, .epsilon,
+h6, .zeta {
+    color: $prim3;
+}
+
+p {
+    color: $prim4;
+    font-size: 1.4rem;
+    line-height: 1.4;
+
+    .text--large &{
+        font-size: 1.8rem;
+        line-height: 1.6;
+    }
+}
+

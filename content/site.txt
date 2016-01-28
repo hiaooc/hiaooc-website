@@ -1,17 +1,17 @@
-Title: Kirby Starterkit
+Title: HI&OOC
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: HI&OOC
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: THIS. IS. HI&OOC.
 
 ----
 
-Keywords: Kirby, CMS, file-based
+Keywords: design,frontend,ios,android,app,websites,projectmanagement,engineering,software,backend,sketch,uarrr
 
 ----
 
-Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
+Copyright: © 2014-(date: Year) (link: http://getkirby.com text: Kirby)

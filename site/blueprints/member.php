@@ -18,10 +18,23 @@ fields:
       fetch: images
       value: '{{filename}}'
       text: '{{filename}}'
+  website:
+    label: Webseite
+    type:  text
   tags:
     label: Tags
     type: tags
     separator: /
+  info:
+    label: Info
+    type: info
+    text: >
+      Die nachfolgenden Felder werden zur Zeit nicht eingebunden. Ihr könnt diese trotzdem gerne ausfüllen wenn es euch beruhigt. Ist quasi das dev/null für eure Daten. 
+
+      Mit ein bisschen Glück können wir sie ja auch verkaufen. 
+
+      MfG
+      Eure Datenkrake HI&OOC
   mail:
     label: E-Mail
     type:  text

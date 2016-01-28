@@ -2,14 +2,8 @@ Title: About
 
 ----
 
-Text: 
-
-## Lorem Ipsum
-In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a.
-
-## Lorem Ipsum
-In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+Text: Our aim is to make the world a better place, by enabling our clients to sell their stuff, everything we do is awesome and this paragraph describes exactly what our process is and why we sweat the details and how you really choose us to work for you. Our aim is to make the world a better place, by enabling our clients to sell their stuff, everything we do is awesome and this paragraph describes exactly what our process is and why we sweat the details and how you really choose us to work for you.  And nobody really realize that this paragraph is repeating.
 
 ----
 
-Textintro: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+Textintro: We're HI&&OOC, a group of designers, engineers, project managers, and illustrators that have a combines experience of developing kick ass products of 400 years.

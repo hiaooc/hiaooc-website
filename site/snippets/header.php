@@ -16,5 +16,5 @@
 
 <header class="header" role="banner">
     <img class="header__logo" src="http://placehold.it/50x50" alt="logo">
-    <h1>HI&OOC</h1>
+    <h1>HI<span>&</span>OOC</h1>
 </header>

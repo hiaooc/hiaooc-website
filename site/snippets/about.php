@@ -1,7 +1,7 @@
 <section class="intro"> 
-    <p class="text--large"> 
+    <div class="text--large"> 
         <?php echo kirbytext( $data->textIntro() ); ?>
-    </p>
+    </div>
     <p>
         <?php echo kirbytext( $data->text() ); ?>
     </p>
