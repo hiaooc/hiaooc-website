@@ -9,6 +9,8 @@
     </div>
 
   </footer>
+<script src="https://use.typekit.net/hnc4bci.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 </body>
 </html>

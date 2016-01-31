@@ -4,6 +4,8 @@ h3, .gamma,
 h4, .delta, 
 h5, .epsilon,
 h6, .zeta {
+    font-family: "brandon-grotesque";
+    font-weight: 700;
 }
 
 h1, .alpha {
@@ -31,6 +33,8 @@ p {
     color: $prim4;
     font-size: 1.4rem;
     line-height: 1.4;
+    font-family: "brandon-grotesque";
+    font-weight: 400;
 
     .text--large &{
         font-size: 1.8rem;
