@@ -1,0 +1,49 @@
+Title: Charles Bukowski
+
+----
+
+Text: Kurze Member Bio. Lorem Ipsum dolor sit amet. Kurze Member Bio. Lorem Ipsum dolor sit amet. Kurze Member Bio. Lorem Ipsum dolor sit amet. Kurze Member Bio. Lorem Ipsum dolor sit amet.
+
+----
+
+Tags: post/ledertasche/whisky/frauen
+
+----
+
+Select-image: bildschirmfoto-2016-01-24-um-23.40.59.png
+
+----
+
+User-image: bildschirmfoto-2016-01-24-um-23.40.59.png
+
+----
+
+Mail: charles@bukowski.de
+
+----
+
+Twitter: dermannmitderledertasche
+
+----
+
+Dribbble: Dribble_URL
+
+----
+
+Github: GITHUB_URL
+
+----
+
+Xing: xing_url
+
+----
+
+Linkedin: linkedinurl_url
+
+----
+
+Instagram: instagram_url
+
+----
+
+Facebook: facebook_url

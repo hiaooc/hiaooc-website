@@ -5,12 +5,12 @@ h4, .delta,
 h5, .epsilon,
 h6, .zeta {
     font-family: "brandon-grotesque";
-    font-weight: 700;
+    font-weight: 600;
 }
 
 h1, .alpha {
     color: $prim3;
-    font-size: 3.2rem;
+    font-size: 3.6rem;
 
     span {
         color: $prim2;
@@ -19,26 +19,29 @@ h1, .alpha {
 
 h2, .beta {
     color: $prim2;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
+    font-weight: 500;
 }
 
 h3, .gamma,
 h4, .delta, 
 h5, .epsilon,
 h6, .zeta {
+    font-size: 1.6rem;
+    font-weight: 500;
     color: $prim3;
 }
 
 p {
     color: $prim4;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 1.4;
     font-family: "brandon-grotesque";
     font-weight: 400;
 
     .text--large &{
-        font-size: 1.8rem;
-        line-height: 1.6;
+        font-size: 2.4rem;
+        line-height: 1.3;
     }
 }
 

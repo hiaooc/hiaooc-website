@@ -1,0 +1,75 @@
+.members {
+    padding: 3rem 0;
+    &__inner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__intro,
+    &__headline {
+        flex: 1 1 100%;
+    }
+}
+
+.member {
+    flex: 0 1 100%;
+    margin-bottom: 2rem;
+
+    @media screen and ( min-width: 768px ) {
+        flex: 0 1 50%;
+    }
+
+    img {
+        border-radius: 50%;
+        display: block;
+        padding-right: 1rem;
+        vertical-align: top;
+        max-width: 30%;
+        margin-bottom: .5rem;
+        @media screen and ( min-width: 768px ) {
+            display: inline-block;
+        }
+    }
+
+    &__inner {
+        h3 {
+            font-size: 1.2rem;
+            color: $prim3;
+            display: inline-block;
+            margin: 0;
+        }
+
+        p {
+            color: $prim4;
+            font-size: 1.2rem;
+            display: inline;
+        }
+
+        display: inline-block;
+        width: 100%;
+        @media screen and ( min-width: 768px ) {
+            width: 69%;
+        }
+    }
+
+    &__tags {
+        list-style: none;
+        margin: 0;
+        padding: 1rem 0 0;
+        > li {
+            color: $prim3;
+            display: inline-block;
+            font-size: 1rem;
+            padding: 0.2rem 0.7rem;
+            margin: 0 .5rem .5rem 0;
+            border-radius: 1rem;
+
+            &:nth-child(2n+1) {
+                background: $prim6;
+            }
+            &:nth-child(2n+0) {
+                background: $prim5;
+            }
+        }
+    }
+
+}
