@@ -2,6 +2,7 @@
 /site/accounts
 /assets/avatars
 /thumbs/*
+**/*.css
 
 /node_modules
 /bower_components
