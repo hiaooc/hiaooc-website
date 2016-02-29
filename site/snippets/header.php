@@ -18,3 +18,7 @@
     <img class="header__logo" src="assets/images/Planet.svg" alt="logo">
     <h1>HI<span>&</span>OOC</h1>
 </header>
+
+<section id="bubbles">
+
+</section>

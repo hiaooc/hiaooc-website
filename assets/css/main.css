@@ -59,6 +59,16 @@ p {
   .header h1 {
     margin-top: 0; }
 
+#bubbles {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  -webkit-filter: blur(10px);
+          filter: blur(10px); }
+
 .members {
   padding: 3rem 0; }
   .members__inner {

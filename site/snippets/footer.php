@@ -11,6 +11,8 @@
   </footer>
 <script src="https://use.typekit.net/hnc4bci.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.22/p5.js"></script>
+<script src="/assets/js/bubbles.js"> </script>
 
 </body>
 </html>
