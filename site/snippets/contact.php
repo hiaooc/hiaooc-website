@@ -1,14 +1,15 @@
-<section id="contact"> 
+<section class="contact">
+    <h2 class="contact__headline">Get in touch</h2>
     <form action="<?php echo $page->url() ?>#form" method="post">
 
         <label for="name" class="required">Name</label>
-        <input<?php e($form->hasError('name'), ' class="erroneous"')?> type="text" name="name" id="name" value="<?php $form->echoValue('name') ?>" required/>
+        <input<?php e($form->hasError('name'), ' class="erroneous"')?> type="text" name="name" id="name" value="<?php $form->echoValue('name') ?>" placeholder="Name" required/>
 
         <label for="email" class="required">E-Mail</label>
-        <input<?php e($form->hasError('_from'), ' class="erroneous"')?> type="email" name="_from" id="email" value="<?php $form->echoValue('_from') ?>" required/>
+        <input<?php e($form->hasError('_from'), ' class="erroneous"')?> type="email" name="_from" id="email" value="<?php $form->echoValue('_from') ?>" placeholder="Email" required/>
 
         <label for="message">Message</label>
-        <textarea name="message" id="message"><?php $form->echoValue('message') ?></textarea>
+        <textarea name="message" id="message" placeholder="Your message"><?php $form->echoValue('message') ?></textarea>
 
         <label class="uniform__potty" for="website">Please leave this field blank</label>
         <input type="text" name="website" id="website" class="uniform__potty" />
