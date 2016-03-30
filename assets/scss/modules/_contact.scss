@@ -1,0 +1,53 @@
+.contact {
+  padding: 3rem 0; 
+  padding-top: 0; }
+
+  &__headline {
+    flex: 1 1 100%;
+  }
+
+  form {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+
+    label {
+      display: none;
+    }
+
+    input, 
+    textarea {
+      flex: 0 1 100%;
+      margin-bottom: 1rem;
+      padding: 1rem; 
+      border: 0; 
+      background-color: $prim7; 
+    }
+
+    input {
+      @media screen and ( min-width: 768px ) {
+          flex: 0 1 calc(50% - 0.5rem);
+      }
+    }
+
+    textarea {
+      height: 15rem;
+    }
+
+  }
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #304858;;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #304858;;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #304858;;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #304858;;
+}

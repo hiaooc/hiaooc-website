@@ -42,6 +42,28 @@ h6, .zeta {
   font-weight: 500;
   color: #ffffff; }
 
+p {
+  color: #89949c;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  font-family: "brandon-grotesque";
+  font-weight: 400; }
+  .text--large p {
+    font-size: 2.4rem;
+    line-height: 1.3; }
+
+input,
+textarea {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "brandon-grotesque";
+  color: #89949c; }
+
+.uniform__potty {
+  position: absolute;
+  top: -9999px;
+  left: -9999px; }
+
 button,
 input,
 select,
@@ -83,21 +105,6 @@ input:-moz-focusring {
 
 textarea {
   overflow: auto; }
-
-p {
-  color: #89949c;
-  font-size: 1.6rem;
-  line-height: 1.4;
-  font-family: "brandon-grotesque";
-  font-weight: 400; }
-  .text--large p {
-    font-size: 2.4rem;
-    line-height: 1.3; }
-
-.uniform__potty {
-  position: absolute;
-  top: -9999px;
-  left: -9999px; }
 
 .header {
   padding-top: 4rem; }
@@ -176,66 +183,62 @@ p {
         background: #5039de; }
 
 .contact {
-  padding: 3rem 0; 
+  padding: 3rem 0;
   padding-top: 0; }
 
-  .contact__headline {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 1 100%;
-        -ms-flex: 1 1 100%;
-            flex: 1 1 100%; }
+__headline {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 100%;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%; }
 
-  .contact form {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap; 
-    -webkit-justify-content: space-between;
-        -ms-justify-content: space-between;
-            justify-content: space-between; }
-
-.contact form label {
-  display: none; }
-
-.contact form input, 
-.contact form textarea {
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 1 100%;
-      -ms-flex: 0 1 100%;
-          flex: 0 1 100%;
-  margin-bottom: 1rem;
-  padding: 1rem; 
-  border: 0; 
-  background-color: #0b1923; 
-  font-family: "brandon-grotesque";
-  font-weight: 400; 
-  font-size: 1.2rem; 
-  color: #89949c; }
-
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    #304858;;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    #304858;;
-   opacity:  1;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    #304858;;
-   opacity:  1;
-}
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color:    #304858;;
-}
-
-.contact form textarea {
-  height: 15rem; }
-
-@media screen and (min-width: 768px) {
-  .contact form input {
+form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  form label {
+    display: none; }
+  form input,
+  form textarea {
     -webkit-box-flex: 0;
-    -webkit-flex: 0 1 calc(50% - 0.5rem);
-        -ms-flex: 0 1 calc(50% - 0.5rem);
-            flex: 0 1 calc(50% - 0.5rem); } }
+    -webkit-flex: 0 1 100%;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 0;
+    background-color: #0b1923; }
+  @media screen and (min-width: 768px) {
+    form input {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 1 calc(50% - 0.5rem);
+          -ms-flex: 0 1 calc(50% - 0.5rem);
+              flex: 0 1 calc(50% - 0.5rem); } }
+  form textarea {
+    height: 15rem; }
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #304858; }
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #304858;
+  opacity: 1; }
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #304858;
+  opacity: 1; }
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #304858; }
